@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <style>
+
+    .banner{
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-image: linear-gradient(rgba(0,0,0,0,8),rgba(0,0,0,0,8),),url(resim.jpeg);
+   
+  
+  }
+  
+  .navbar{
+      display: flex;
+      width: 90%;
+      margin: auto;
+      padding: 32px 0;
+      align-items: center;
+      justify-content: space-between;
+  
+  }
+  .logo{
+  cursor:  pointer;
+  border-radius: 50%;
+  }
+  .navbar ul li{
+      list-style-type:none;
+      display: inline-block;
+      margin: 0 25px;
+  }
+  </style>
+    <title>Slider</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Benim ve güzel şehrim</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <ul>
+      <li><a href="#">ANASAYFA</a></li>
+      <li><a href="#">FUTBOL TAKIMI</a></li>
+      <li><a href="#">YEMEKLER</a></li>
+      <li><a href="#">BENİM HAKKIMDA</a></li>
+      <li><a href="#">MUTLAKA GEZİLECEK YERLER</a></li>
+    </ul>
+    <div class="banner">
+      <div class="resim">
+      <div class="navber">
+        <div class="navbar">
+          <div class="logo">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="100">
+          <img src="1. resim.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>KÜTAHYA HAKKINDA</h1>
+      
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="100">
+          <img src="hisar3.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>HİSAR KALESİ</h1>
+            <p>Tarih boyunca birçok önemli medeniyete kucak açmış Kütahya’da geçmişin, bugünün ve geleceğin en heybetli şahidi Kütahya Kalesi…</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="çinici.webp" d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>ÇİNİCİLER ÇARŞISI</h1>
+            <p>Kütahya demek porselen demek, porselen ise geleneksel zanaat ve estetiğin eşyaya yansıyarak hayat bulmuş hali değil mi? Ben ürünlere her baktığımda farklı desen, ışık ve renk yansıması görüyorum.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <BR></BR>
+      
+
+      Tipik bir Anadolu şehri Kütahya. Biraz Ege, biraz iç Anadolu az Doğu renkleriyle bir Anadolu sentezi. Sıcak mı sıcak, iyiniyetli insanı ile turiste her an yardıma hazır.  Burada kendinizi rahat ve güvende hissedeceğiniz bir meltem gibi akıyor hayat, sakin ve usulca… İşte size Kütahya gezi rehberi…
+<br>
+<br>
+      <h2>HİSAR KALESİ</h2>
+      <BR>
+      </BR>
+      <img src="hisar2.jpg" alt="" class="LOGO" width="400" height="400">
+      <br>
+      Tarih boyunca birçok önemli medeniyete kucak açmış Kütahya’da geçmişin, bugünün ve geleceğin en heybetli şahidi Kütahya Kalesi…Halk arasında Hisar olarak bilinen Kütahya Kalesi M.S. 8. yüzyılda inşa edilmiş bir Bizans eseri.Tarihi kale, Bizans İmparatorluğunun ömrünü tamamlamasının ardından sırasıyla Selçuklu, Germiyanoğlu ve Osmanlı İmparatorluğu tarafından kullanılmış; yapılan ilave ve onarımlarla günümüze ulaşmış ve bugün o heybetli duruşuyla hala zamana meydan okumaktadır.
+      <BR>
+      </BR>
+      <h2>AİZANOİ ANTİK KENTİ</h2>
+      <BR></BR><img src="aizanoi.jpg" alt="" class="LOGO" width="400" height="400">
+     <br> Aizanoi kenti, antik Frigya'ya bağlı olarak yaşayan Aizanitis’lerin ana yerleşim merkeziydi. Kentin yüksek platosu üzerinde bulunan Zeus Tapınağı'nın çevresinde yapılan kazılarda, MÖ 3 bin yıllarına ait yerleşim izlerinin ortaya çıktığı görülmüştür. Helenistik Dönem'de bu bölge değişimli olarak Bergama’ya ve Bithynia’ya bağlı iken MÖ 133’de Roma egemenliğine girmiştir. Roma imparatorluk döneminde tahıl ekimi, şarap ve yün üretimi sayesinde zenginleşmiş ve ünü bölge sınırlarını aşmış olan Aizanoi’de kesin kentleşme bulgularına ancak MÖ 1'nci yüzyıl sonlarına doğru rastlanmaktadır. Yine ilk sikkelerin bu dönemde basıldığı bilinmektedir.
+      Aizanoi antik kenti en parlak dönemini MS 2 yüzyılda yaşamış, büyük imar faaliyetleri görmüş ve bu dönemde birçok yapı inşa edilmiştir. Erken Bizans Dönemi'nde piskoposluk merkezi iken, 7'nci yüzyıldan itibaren bu önemini yitirmiştir. Tapınak düzlüğü Orta Çağ'da bir hisara dönüştürülmüştür. Selçuklular Dönemi'nde Çavdar Tatarları tarafından üs olarak kullanılmasından dolayı buraya Çavdarhisar adı verilmiştir.
+<br>
+<img src="ulucami.jpeg" alt="" class="LOGO" width="400" height="400">
+<BR>
+<h2>KÜTAHYA ULU CAMİ</h2>
+<br>
+Bu Büyük Cami 45X25 metrekarelik bir alanı kaplamaktadır. Kuzeydoğu köşesinde bir minaresi olan caminin üç yönde kapısı vardır. Ana giriş kapısı karşısında sakahane bulunmaktadır. Cami içindeki büyük sütunlar Aızanoı Antik Kenti'nden getirilmiştir. İç kısmında küçük bir şadırvan vardır.Şadırvanın üstüne dört sütunlu müezzin mahfili yapılmıştır. Caminin ana mekânı, altı sütunun desteklediği yan yana iki kubbe ve yanlarda yarım kubbelerle örtülüdür. Caminin yarım kubbeyle örtülü, dışa çıkıntılı mihrabının sağındaki Kâbe tasvirli çini pano görülmeye değerdir.
+<br>
+<img src="şehitler.jpg" alt="" class="LOGO" width="400" height="400">
+<br>
+<h2>DUMLUPINAR ŞEHİTLİĞİ</h2>
+<br>
+Şehit Baba-Oğul Anıtı; 1912 yılında daha oğlu Mehmet 8 yaşında iken Balkan Savaşı’na katılmak için köyünden ayrılan, daha sonra sırasıyla Galiçya, Hicaz, Yemen, Kafkasya’da 11 yıl cepheden cepheye koşarak çarpışan, Çetmili Kara Ali Çavuş (Çetmi, Konya’nın Beyşehir ilçesine bağlı bir kasabadır. Günümüzde Akçabelen Mahallesi olarak geçer.) ve oğlu Onbaşı Mehmet’in muhteşem destanını sembolize eder. Çetmili Kara Ali Çavuş, Anadolu’da millî mücadele başlayınca, Doğu Cephesi'nden Kurtuluş Savaşı’na koşmuş, Başkomutan Meydan Muharebesi’nde 19 yaşındaki Alay Sancaktarı Mehmet Onbaşı ile karşılaşmıştır. Mehmet Onbaşı, onun 11 yıl önce bırakıp gittiği oğludur. Bu büyük asker, 31 Ağustos 1922 günü, 11 yıl sonra kavuşabildiği oğlunun kollarında şehit düşmüştür. Oğlu kahraman Onbaşı Mehmet de 9 Eylül 1922 günü İzmir’e giren birliğin başında şehit olmuştur. Anıt 30 Ağustos 1992’de ziyarete açılmıştır.Milisler Anıtı; millî mücadele döneminde şehit düşen sivil vatandaşlarımızı sembolize eden bir anıttır.Üç Komutan Anıtı; Millî mücadelemizin üç büyük komutanı olan Atatürk, İsmet Paşa ve Fevzi Çakmak anısına yapılmıştır.Mehmetçik Anıtı; Millî mücadele de süngüsünü takmış düşman üzerine saldırmaya hazır binlerce Mehmetçiğimizi sembolize eden bir anıttır.
+<br>
+<img src="çinici.webp" alt="" class="LOGO" width="400" height="400">
+<br>
+<h2>ÇİNİCİLER ÇARŞISI</h2>
+
+
+ 
+</body>
+</html>
