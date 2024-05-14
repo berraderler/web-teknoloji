@@ -82,7 +82,7 @@ a:hover {
 
 #menu .active a, #menu a:hover {
 	height: 23px;
-	background: #EFF0EB;
+	background: #b9bcac;
 }
 
 /* Content */
@@ -104,7 +104,7 @@ a:hover {
 	margin-bottom: 3em;
 }
 
-#colOne .title {
+.title {
 	margin: 0;
 	padding: 0;
 	border-bottom: 1px solid #C9CCB9;
