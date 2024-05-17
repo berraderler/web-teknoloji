@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(images/img1.gif) repeat-x;  /* bulduğumuz çizgi img si ile şablon kısmını oluşturduk */
+	font: normal small sans-serif;
+	color: #878C66;
+}
+a {
+	text-decoration: none;   /*  şablon kısmındaki ana sayfa memleketim gibi kısımların rengini değiştirdik ve görüntüsünü düzelttik.    */
+	color: #825037;
+}
+
+#logo {
+	float: left;
+	padding: 42px 0 0 0;
+}
+
+#logo *{
+	margin: 0;
+	text-decoration: none;      /*logo kısmı ayarlandı*/
+	font-weight: normal;
+	color: #878C66;
+}
+
+#logo h1 {
+	letter-spacing: -2px;
+	font-size: 2.8em;
+}
+
+#logo h2 {
+	margin-top: -5px;
+	padding-left: 2px;
+	font-size: 1em;
+}
+#tiklamalar ul {
+	margin: 0;
+	padding: 69px 0 0 0;
+	list-style: none;
+}
+
+#tiklamalar li {
+	display: inline;
+}
+
+#tiklamalar a {
+	display: block;
+	float: left;
+	height: 22px;
+	margin-left: 2px;
+	padding: 8px 15px 0 15px;
+	background: #EFF0EB url(images/img2.gif) repeat-x;   /* bir buton şekline getirdik diğer sayfalara yönelmek için */
+	border: 1px solid #C9CCB9;
+	border-bottom: none;
+	text-decoration: none;
+	color: #878C66;
+}
+
+#tiklamalar .active a, #tiklamalar a:hover {
+	height: 23px;
+	background: #b9bcac;
+}
+#icerik {
+	width: 700px;        /* yazılan yazıları ve fotoğrafları ortaladık.*/
+	margin: 0 auto;
+}
+.baslik {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #C9CCB9;   /* yazdığımız yazıların başlıklarını ayarladık */
+	font-size: 1.6em;
+}
+.kaydirmalifotograf {
+        
+	width: 300px; /* Slayt genişliği */
+	height: 200px; /* Slayt yüksekliği */
+	overflow: hidden; /* Taşan içeriği gizle */
+	}
+	.kaydirmalifotograf img {
+	width: 100%; /* Görüntü genişliği slaytın genişliğine eşit */
+	height: 100%; /* Görüntü yüksekliği slaytın yüksekliğine eşit */
+	object-fit: cover; /* Görüntüyü orijinal oranını koruyarak slaytın tamamına sığacak şekilde boyutlandır */
+	}
+		.kaydirmalifotograf {
+		  width: 600px; /* Yeni genişlik */
+		  height: 400px; /* Yeni yükseklik */
+		  /* İsteğe bağlı olarak diğer stillendirme özellikleri */
+		}
+#altbilgi {
+	width: 700px;
+	margin: 0 auto;      /*  en alttaki kısımı düzelttik*/
+	padding: 1em;
+	border-top: 1px solid #C9CCB9;
+}
+
+#altbilgi p {
+	font-size: xx-small;
+}
+
+
+
+
+
+
+
+
+
+
+
